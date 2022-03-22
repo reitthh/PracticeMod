@@ -18,6 +18,9 @@ public class ModBlocks {
     public static final Block MYHTRIL_BLOCK = registerBlock("mythril_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().breakInstantly()), ItemGroup.MISC);
 
+    public static final Block MYHTRIL_ORE = registerBlock("mythril_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ItemGroup.MISC);
+
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
